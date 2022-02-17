@@ -2,12 +2,9 @@
 
 function adcElemento() {
     var rifas = [
-        1,
         2,
-        3,
         4,
         5,
-        6,
         7,
         8,
         9,
@@ -16,18 +13,14 @@ function adcElemento() {
         12,
         13,
         14,
-        15,
         16,
         17,
-        19,
         20,
         21,
         22,
         23,
         24,
-        25,
         26,
-        27,
         28,
         29,
         30,
@@ -44,12 +37,10 @@ function adcElemento() {
         41,
         42,
         43,
-        44,
         45,
         46,
         47,
         48,
-        49,
         50,
         51,
         52,
@@ -128,7 +119,6 @@ function adcElemento() {
         127,
         128,
         129,
-        130,
         131,
         132,
         133,
@@ -197,8 +187,7 @@ function adcElemento() {
         196,
         197,
         198,
-        199,
-        200
+        199
     ];
     rifas.forEach(function (item, indice, array) {
         var divNova = createElementFromHTML(item);
