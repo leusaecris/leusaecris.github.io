@@ -3,7 +3,6 @@ function adcElemento() {
     numbers.splice(0,1);
     var rifasCompradas = [
         1,
-        2,
         3,
         4,
         5,
