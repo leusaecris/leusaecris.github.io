@@ -1,5 +1,3 @@
-
-
 function adcElemento() {
     const numbers = Object.keys(new Array(201).fill(null)).map(Number);
     numbers.splice(0,1);
@@ -36,7 +34,5 @@ function createElementFromHTML(htmlString) {
     "<div class='shadow'></div>"
     "</div>";
     div.innerHTML = htmltexto.trim();
-
-    // Change this to div.childNodes to support multiple top-level nodes.
     return div.firstChild;
 }
