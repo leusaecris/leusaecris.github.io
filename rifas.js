@@ -18,7 +18,6 @@ function adcElemento() {
         14,
         15,
         17,
-        18,
         19,
         20,
         21,
