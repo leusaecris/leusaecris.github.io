@@ -59,7 +59,7 @@ function adcElemento() {
         61,
         62, 
         65,
-        66
+        66,
         70, 
         71, 
         72, 
