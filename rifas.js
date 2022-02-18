@@ -136,8 +136,10 @@ function adcElemento() {
         133, 
         135,
         136, 
+        137, 
         140, 
         141, 
+        142,
         143, 
         149, 
         150, 
@@ -171,10 +173,14 @@ function adcElemento() {
         198,
         199,
         200,
+        202,
+        205,
         213,
         223,
         252,
-        269
+        267,
+        269,
+        288
     ];
 
     let rifasDisponiveis = numbers.filter(x => !rifasCompradas.includes(x));
