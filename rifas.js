@@ -1,5 +1,5 @@
 function adcElemento() {
-    const numbers = Object.keys(new Array(201).fill(null)).map(Number);
+    const numbers = Object.keys(new Array(301).fill(null)).map(Number);
     numbers.splice(0,1);
     var rifasCompradas = [
         1,
