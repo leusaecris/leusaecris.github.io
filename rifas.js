@@ -173,7 +173,8 @@ function adcElemento() {
         200,
         213,
         223,
-        252
+        252,
+        269
     ];
 
     let rifasDisponiveis = numbers.filter(x => !rifasCompradas.includes(x));
