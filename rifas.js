@@ -9,7 +9,8 @@ function adcElemento() {
     
     rifasDisponiveis.forEach(function (item, indice, array) {
         var divNova = createElementFromHTML(item);
-        document.body.appendChild(divNova);
+        // document.body.appendChild(divNova);
+        document.getElementById("cover-container").appendChild(divNova);
     });
 
 }
