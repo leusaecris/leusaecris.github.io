@@ -1,7 +1,7 @@
 function adcElemento() {
     const numbers = Object.keys(new Array(101).fill(null)).map(Number);
     numbers.splice(0, 1);
-    var rifasCompradas = [25, 77
+    var rifasCompradas = [
 
     ];
 
