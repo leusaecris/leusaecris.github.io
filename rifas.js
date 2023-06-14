@@ -1,19 +1,20 @@
 function adcElemento() {
     const numbers = Object.keys(new Array(101).fill(null)).map(Number);
-    numbers.splice(0,1);
-    var rifasCompradas = [
-        
+    numbers.splice(0, 1);
+    var rifasCompradas = [25, 77
+
     ];
 
     let rifasDisponiveis = numbers.filter(x => !rifasCompradas.includes(x));
-    
-    rifasDisponiveis.forEach(function (item, indice, array) {
+
+    rifasDisponiveis.forEach(function(item, indice, array) {
         var divNova = createElementFromHTML(item);
         // document.body.appendChild(divNova);
         document.getElementById("cover-container").appendChild(divNova);
     });
 
 }
+
 function createElementFromHTML(htmlString) {
     var div = document.createElement('div');
 
