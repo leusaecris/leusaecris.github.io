@@ -2,6 +2,16 @@ function adcElemento() {
     const numbers = Object.keys(new Array(101).fill(null)).map(Number);
     numbers.splice(0, 1);
     var rifasCompradas = [
+        01, 03, 05, 07, 09,
+        10, 11, 12, 13, 15, 17, 19,
+        21, 23, 25, 28,
+        31, 34,
+        40, 43, 45, 48,
+        50, 54, 57,
+        63, 67,
+        70, 73, 76, 79,
+        81, 88, 96, 99,
+        100
 
     ];
 
